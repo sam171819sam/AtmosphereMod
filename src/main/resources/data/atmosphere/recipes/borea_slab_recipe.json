@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "atmosphere:borea_planks"
+    },
+    "1": {
+      "item": "atmosphere:borea_planks"
+    },
+    "2": {
+      "item": "atmosphere:borea_planks"
+    }
+  },
+  "result": {
+    "item": "atmosphere:borea_slab",
+    "count": 6
+  }
+}

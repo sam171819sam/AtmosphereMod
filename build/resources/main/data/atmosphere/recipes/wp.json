@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "atmosphere:tub"
+    }
+  },
+  "result": {
+    "item": "atmosphere:witch_pool",
+    "count": 1
+  }
+}

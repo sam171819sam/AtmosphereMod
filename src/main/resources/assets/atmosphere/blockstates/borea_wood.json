@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "atmosphere:block/borea_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "atmosphere:block/borea_wood"
+    },
+    "axis=z": {
+      "model": "atmosphere:block/borea_wood",
+      "x": 90
+    }
+  }
+}

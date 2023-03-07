@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "atmosphere:blocks/borea_log_top",
+    "up": "atmosphere:blocks/borea_log_top",
+    "north": "atmosphere:blocks/borea_log",
+    "east": "atmosphere:blocks/borea_log",
+    "south": "atmosphere:blocks/borea_log",
+    "west": "atmosphere:blocks/borea_log",
+    "particle": "atmosphere:blocks/borea_log_top"
+  },
+  "render_type": "solid"
+}

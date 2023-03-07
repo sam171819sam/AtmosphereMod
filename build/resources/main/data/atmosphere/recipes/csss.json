@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    },
+    "3": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    },
+    "4": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    },
+    "6": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    },
+    "7": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    },
+    "8": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    }
+  },
+  "result": {
+    "item": "atmosphere:cobbled_shatter_stone_stairs",
+    "count": 4
+  }
+}

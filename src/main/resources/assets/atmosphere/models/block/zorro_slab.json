@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "atmosphere:blocks/zorro_planks",
+    "top": "atmosphere:blocks/zorro_planks",
+    "side": "atmosphere:blocks/zorro_planks"
+  },
+  "render_type": "solid"
+}

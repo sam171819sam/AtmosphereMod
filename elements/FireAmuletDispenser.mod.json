@@ -1,0 +1,18 @@
+{
+  "_fv": 39,
+  "_type": "itemextension",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:FireAmulet"
+    },
+    "enableFuel": false,
+    "fuelPower": {
+      "fixedValue": 1600.0
+    },
+    "hasDispenseBehavior": true,
+    "dispenseResultItemstack": {
+      "name": "FireAmuletDispenserOnDispenseAttemptWithResult"
+    },
+    "compostLayerChance": 0.0
+  }
+}

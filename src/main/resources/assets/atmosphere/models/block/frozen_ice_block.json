@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "atmosphere:blocks/frosty_ice",
+    "particle": "atmosphere:blocks/frosty_ice"
+  },
+  "render_type": "solid"
+}

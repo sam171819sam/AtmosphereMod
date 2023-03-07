@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "atmosphere:blocks/borea_planks",
+    "top": "atmosphere:blocks/borea_planks",
+    "side": "atmosphere:blocks/borea_planks"
+  },
+  "render_type": "solid"
+}

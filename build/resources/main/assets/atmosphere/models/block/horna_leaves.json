@@ -1,0 +1,9 @@
+{
+  "parent": "atmosphere:custom/horna_leaves",
+  "textures": {
+    "all": "atmosphere:blocks/horna_leaves",
+    "particle": "atmosphere:blocks/horna_leaves",
+    "0": "atmosphere:blocks/horna_leaves"
+  },
+  "render_type": "cutout"
+}

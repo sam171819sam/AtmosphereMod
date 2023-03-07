@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "atmosphere:blocks/stardust_sand",
+    "particle": "atmosphere:blocks/stardust_sand"
+  },
+  "render_type": "solid"
+}

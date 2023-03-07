@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "atmosphere:block/vanillya_brick_slab"
+    },
+    "type=top": {
+      "model": "atmosphere:block/vanillya_brick_slab_top"
+    },
+    "type=double": {
+      "model": "atmosphere:block/vanillya_brick_slab_full"
+    }
+  }
+}

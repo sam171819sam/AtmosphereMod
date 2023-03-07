@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "atmosphere:zorro_button",
+    "atmosphere:zorro_pressure_plate",
+    "atmosphere:zorro_stairs",
+    "atmosphere:zorro_fence",
+    "atmosphere:zorro_slab",
+    "atmosphere:zorro_fence_gate",
+    "atmosphere:zorro_planks"
+  ]
+}

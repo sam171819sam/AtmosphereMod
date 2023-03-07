@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "atmosphere:blocks/raw_luminum_block",
+    "particle": "atmosphere:blocks/raw_luminum_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "atmosphere:blocks/shatter_stone",
+    "up": "atmosphere:blocks/sky_grass_top",
+    "north": "atmosphere:blocks/gusty_grass",
+    "east": "atmosphere:blocks/gusty_grass",
+    "south": "atmosphere:blocks/gusty_grass",
+    "west": "atmosphere:blocks/gusty_grass",
+    "particle": "atmosphere:blocks/shatter_stone"
+  },
+  "render_type": "solid"
+}

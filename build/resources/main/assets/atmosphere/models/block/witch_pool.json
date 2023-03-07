@@ -1,0 +1,10 @@
+{
+  "parent": "atmosphere:custom/witchpool.bbmodel",
+  "textures": {
+    "all": "atmosphere:blocks/witchpool",
+    "particle": "atmosphere:blocks/witchpool",
+    "4": "atmosphere:blocks/witchpool",
+    "missing": "atmosphere:blocks/witchpool"
+  },
+  "render_type": "solid"
+}

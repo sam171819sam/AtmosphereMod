@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 3,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "atmosphere:raw_luminum"
+  },
+  "result": "atmosphere:luminum_ingot"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "atmosphere:blocks/cobbled_shatter_stone",
+    "top": "atmosphere:blocks/cobbled_shatter_stone",
+    "side": "atmosphere:blocks/cobbled_shatter_stone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "atmosphere:horna_forest",
+  "features": "atmosphere:frozen_ice",
+  "step": "underground_structures"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:horna_log"
+    }
+  ],
+  "result": {
+    "item": "atmosphere:horna_planks",
+    "count": 4
+  }
+}

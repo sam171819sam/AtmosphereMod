@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "atmosphere:blocks/vanillya_bricks",
+    "top": "atmosphere:blocks/vanillya_bricks",
+    "side": "atmosphere:blocks/vanillya_bricks"
+  },
+  "render_type": "solid"
+}

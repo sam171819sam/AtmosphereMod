@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "atmosphere:block/cobbled_shatter_stone_slab"
+    },
+    "type=top": {
+      "model": "atmosphere:block/cobbled_shatter_stone_slab_top"
+    },
+    "type=double": {
+      "model": "atmosphere:block/cobbled_shatter_stone_slab_full"
+    }
+  }
+}

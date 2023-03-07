@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "atmosphere:borea_fence_gate",
+    "atmosphere:horna_fence_gate",
+    "atmosphere:zorro_fence",
+    "atmosphere:borea_fence",
+    "atmosphere:zorro_fence_gate",
+    "atmosphere:horna_fence"
+  ]
+}

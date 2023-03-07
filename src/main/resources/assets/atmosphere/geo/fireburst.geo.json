@@ -1,0 +1,43 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.fireburst",
+				"texture_width": 320,
+				"texture_height": 320,
+				"visible_bounds_width": 7,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "burst",
+					"pivot": [0, 8, 0]
+				},
+				{
+					"name": "outer",
+					"parent": "burst",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{"origin": [-40, 8, -26], "size": [14, 14, 48], "uv": [148, 56]},
+						{"origin": [26, 8, -26], "size": [14, 14, 48], "uv": [150, 130]},
+						{"origin": [-40, 8, 22], "size": [80, 14, 14], "uv": [0, 0]},
+						{"origin": [-40, 8, -40], "size": [80, 14, 14], "uv": [0, 28]}
+					]
+				},
+				{
+					"name": "inner",
+					"parent": "burst",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{"origin": [-39, 9, -27], "size": [12, 12, 50], "uv": [74, 116]},
+						{"origin": [27, 9, -27], "size": [12, 12, 50], "uv": [0, 104]},
+						{"origin": [-39, 9, 23], "size": [78, 12, 12], "uv": [0, 80]},
+						{"origin": [-39, 9, -39], "size": [78, 12, 12], "uv": [0, 56]}
+					]
+				}
+			]
+		}
+	]
+}

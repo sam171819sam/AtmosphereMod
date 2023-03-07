@@ -1,0 +1,36 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ZorroPlanks"
+      },
+      {
+        "value": "CUSTOM:ZorroStairs"
+      },
+      {
+        "value": "CUSTOM:ZorroSlab"
+      },
+      {
+        "value": "CUSTOM:ZorroFence"
+      },
+      {
+        "value": "CUSTOM:ZorroFenceGate"
+      },
+      {
+        "value": "CUSTOM:ZorroPressurePlate"
+      },
+      {
+        "value": "CUSTOM:ZorroButton"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "planks",
+    "namespace": "minecraft"
+  }
+}

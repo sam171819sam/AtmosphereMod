@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "atmosphere:borea_log"
+    },
+    "1": {
+      "item": "atmosphere:borea_log"
+    },
+    "2": {
+      "item": "atmosphere:borea_log"
+    },
+    "3": {
+      "item": "atmosphere:borea_log"
+    }
+  },
+  "result": {
+    "item": "atmosphere:borea_wood",
+    "count": 3
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "atmosphere:blocks/humus_soil",
+    "top": "atmosphere:blocks/humus_grass_block_toptest",
+    "side": "atmosphere:blocks/humus_grass_block",
+    "overlay": "atmosphere:blocks/humus_grass_layer",
+    "particle": "atmosphere:blocks/humus_soil"
+  },
+  "render_type": "cutout"
+}

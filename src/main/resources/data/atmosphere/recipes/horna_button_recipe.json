@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "atmosphere:horna_planks"
+    }
+  ],
+  "result": {
+    "item": "atmosphere:horna_button",
+    "count": 1
+  }
+}

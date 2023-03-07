@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ZorroPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ZorroPlanks"
+      },
+      {
+        "value": "CUSTOM:ZorroPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ZorroPlanks"
+      },
+      {
+        "value": "CUSTOM:ZorroPlanks"
+      },
+      {
+        "value": "CUSTOM:ZorroPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ZorroStairs"
+    },
+    "name": "zorro_stairs_recipe",
+    "namespace": "mod"
+  }
+}

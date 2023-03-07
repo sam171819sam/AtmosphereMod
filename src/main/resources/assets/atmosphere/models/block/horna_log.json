@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "atmosphere:blocks/horna_log_top",
+    "up": "atmosphere:blocks/horna_log_top",
+    "north": "atmosphere:blocks/horna_log",
+    "east": "atmosphere:blocks/horna_log",
+    "south": "atmosphere:blocks/horna_log",
+    "west": "atmosphere:blocks/horna_log",
+    "particle": "atmosphere:blocks/horna_log_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BoreaFence"
+      },
+      {
+        "value": "CUSTOM:ZorroFence"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "wooden_fences",
+    "namespace": "minecraft"
+  }
+}

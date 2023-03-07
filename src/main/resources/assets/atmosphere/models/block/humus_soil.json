@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "atmosphere:blocks/humus_soil",
+    "particle": "atmosphere:blocks/humus_soil"
+  },
+  "render_type": "solid"
+}

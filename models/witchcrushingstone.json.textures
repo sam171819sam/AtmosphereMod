@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "4": "witchpool",
+        "missing": "witchpool"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "atmosphere:luminum_ingot"
+    },
+    "1": {
+      "item": "atmosphere:luminum_ingot"
+    },
+    "2": {
+      "item": "atmosphere:luminum_ingot"
+    },
+    "3": {
+      "item": "atmosphere:luminum_ingot"
+    },
+    "4": {
+      "item": "atmosphere:luminum_ingot"
+    },
+    "5": {
+      "item": "atmosphere:luminum_ingot"
+    },
+    "6": {
+      "item": "atmosphere:luminum_ingot"
+    },
+    "7": {
+      "item": "atmosphere:luminum_ingot"
+    },
+    "8": {
+      "item": "atmosphere:luminum_ingot"
+    }
+  },
+  "result": {
+    "item": "atmosphere:luminum_block",
+    "count": 1
+  }
+}

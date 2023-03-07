@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "atmosphere:borea_wood",
+    "atmosphere:zorro_log",
+    "atmosphere:borea_log",
+    "atmosphere:zorro_wood"
+  ]
+}

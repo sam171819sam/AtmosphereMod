@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "atmosphere:borea_planks"
+    },
+    "1": {
+      "item": "atmosphere:borea_planks"
+    },
+    "2": {
+      "item": "atmosphere:borea_planks"
+    },
+    "3": {
+      "item": "atmosphere:borea_planks"
+    },
+    "4": {
+      "item": "atmosphere:borea_planks"
+    },
+    "5": {
+      "item": "atmosphere:borea_planks"
+    }
+  },
+  "result": {
+    "item": "atmosphere:borea_door",
+    "count": 3
+  }
+}

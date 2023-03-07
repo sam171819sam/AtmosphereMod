@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ZorroLog"
+      },
+      {
+        "value": "CUSTOM:ZorroLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ZorroLog"
+      },
+      {
+        "value": "CUSTOM:ZorroLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ZorroWood"
+    },
+    "name": "zorro_wood_recipe",
+    "namespace": "mod"
+  }
+}

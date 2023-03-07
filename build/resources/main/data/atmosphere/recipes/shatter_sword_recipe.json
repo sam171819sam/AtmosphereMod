@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    },
+    "1": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "atmosphere:shatter_sword",
+    "count": 1
+  }
+}

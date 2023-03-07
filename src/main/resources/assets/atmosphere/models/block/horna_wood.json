@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "atmosphere:blocks/horna_log",
+    "particle": "atmosphere:blocks/horna_log"
+  },
+  "render_type": "solid"
+}

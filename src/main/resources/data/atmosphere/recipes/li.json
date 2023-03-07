@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "atmosphere:raw_luminum"
+  },
+  "result": "atmosphere:luminum_ingot"
+}

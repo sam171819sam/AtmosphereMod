@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "atmosphere:block/frozen_ice_block"
+    }
+  }
+}

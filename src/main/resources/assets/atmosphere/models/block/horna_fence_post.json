@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "atmosphere:blocks/horna_planks",
+    "particle": "atmosphere:blocks/horna_planks"
+  },
+  "render_type": "solid"
+}

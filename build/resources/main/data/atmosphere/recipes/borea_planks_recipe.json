@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:borea_log"
+    }
+  ],
+  "result": {
+    "item": "atmosphere:borea_planks",
+    "count": 4
+  }
+}

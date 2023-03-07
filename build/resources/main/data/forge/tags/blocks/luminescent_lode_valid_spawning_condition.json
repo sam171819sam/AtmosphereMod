@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "atmosphere:shatter_stone",
+    "atmosphere:gusty_grass",
+    "atmosphere:cobbled_shatter_stone"
+  ]
+}

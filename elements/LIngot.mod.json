@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 3.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RawLuminum"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:LuminumIngot"
+    },
+    "name": "l_ingot",
+    "namespace": "mod"
+  }
+}

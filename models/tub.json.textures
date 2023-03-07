@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "4": "tub",
+        "missing": "tub"
+      },
+      "name": "default"
+    }
+  }
+}

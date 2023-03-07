@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "atmosphere:blocks/zorro_log",
+    "particle": "atmosphere:blocks/zorro_log"
+  },
+  "render_type": "solid"
+}

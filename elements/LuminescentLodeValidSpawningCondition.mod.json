@@ -1,0 +1,24 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:ShatterStone"
+      },
+      {
+        "value": "CUSTOM:CobbledShatterStone"
+      },
+      {
+        "value": "CUSTOM:GustyGrass"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "luminescent_lode_valid_spawning_condition",
+    "namespace": "forge"
+  }
+}

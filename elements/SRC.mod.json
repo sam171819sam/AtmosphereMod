@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SaintRib"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SaintRib"
+      },
+      {
+        "value": "CUSTOM:SaintRib"
+      },
+      {
+        "value": "Items.NETHERITE_CHESTPLATE"
+      },
+      {
+        "value": "CUSTOM:SaintRib"
+      },
+      {
+        "value": "CUSTOM:SaintRib"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SaintRib"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SaintA.body"
+    },
+    "name": "src",
+    "namespace": "mod"
+  }
+}

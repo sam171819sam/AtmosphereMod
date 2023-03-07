@@ -1,0 +1,9 @@
+{
+  "parent": "atmosphere:custom/zorromoss",
+  "textures": {
+    "all": "atmosphere:blocks/zorro_moss",
+    "particle": "atmosphere:blocks/zorro_moss",
+    "0": "atmosphere:blocks/zorro_moss"
+  },
+  "render_type": "cutout"
+}

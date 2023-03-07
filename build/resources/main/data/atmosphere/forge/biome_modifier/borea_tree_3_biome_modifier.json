@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "atmosphere:petal_paradise",
+  "features": "atmosphere:borea_tree_3",
+  "step": "surface_structures"
+}

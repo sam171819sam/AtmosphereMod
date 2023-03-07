@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "atmosphere:borea_planks"
+    }
+  ],
+  "result": {
+    "item": "atmosphere:borea_button",
+    "count": 1
+  }
+}

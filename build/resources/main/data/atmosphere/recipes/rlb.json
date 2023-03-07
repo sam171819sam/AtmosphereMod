@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "atmosphere:raw_luminum"
+    },
+    "1": {
+      "item": "atmosphere:raw_luminum"
+    },
+    "2": {
+      "item": "atmosphere:raw_luminum"
+    },
+    "3": {
+      "item": "atmosphere:raw_luminum"
+    },
+    "4": {
+      "item": "atmosphere:raw_luminum"
+    },
+    "5": {
+      "item": "atmosphere:raw_luminum"
+    },
+    "6": {
+      "item": "atmosphere:raw_luminum"
+    },
+    "7": {
+      "item": "atmosphere:raw_luminum"
+    },
+    "8": {
+      "item": "atmosphere:raw_luminum"
+    }
+  },
+  "result": {
+    "item": "atmosphere:raw_luminum_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:VanillyaWall"
+      },
+      {
+        "value": "CUSTOM:VanillyaBrickWall"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "walls",
+    "namespace": "minecraft"
+  }
+}

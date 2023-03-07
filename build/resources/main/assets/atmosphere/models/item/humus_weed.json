@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "atmosphere:items/humus_weed_item"
+  }
+}

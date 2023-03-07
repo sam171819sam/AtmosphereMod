@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "atmosphere:saint_rib"
+    },
+    "2": {
+      "item": "atmosphere:saint_rib"
+    },
+    "3": {
+      "item": "atmosphere:saint_rib"
+    },
+    "4": {
+      "item": "minecraft:netherite_chestplate"
+    },
+    "5": {
+      "item": "atmosphere:saint_rib"
+    },
+    "6": {
+      "item": "atmosphere:saint_rib"
+    },
+    "8": {
+      "item": "atmosphere:saint_rib"
+    }
+  },
+  "result": {
+    "item": "atmosphere:saint_a_chestplate",
+    "count": 1
+  }
+}

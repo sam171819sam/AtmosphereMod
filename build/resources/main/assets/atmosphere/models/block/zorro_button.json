@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "atmosphere:blocks/zorro_planks"
+  },
+  "render_type": "solid"
+}

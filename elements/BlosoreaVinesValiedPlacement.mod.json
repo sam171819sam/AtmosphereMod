@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BoreaWood"
+      },
+      {
+        "value": "CUSTOM:BoreaLog"
+      },
+      {
+        "value": "CUSTOM:BoreaLeaves"
+      },
+      {
+        "value": "CUSTOM:BlosoreaVines"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "blosorea_vines_valied_placement",
+    "namespace": "forge"
+  }
+}

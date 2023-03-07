@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "atmosphere:blocks/frosted_humus_soil",
+    "up": "atmosphere:blocks/frosted_humus_soil",
+    "north": "atmosphere:blocks/frosted_humus_soil",
+    "east": "atmosphere:blocks/frosted_humus_soil",
+    "south": "atmosphere:blocks/frosted_humus_soil",
+    "west": "atmosphere:blocks/frosted_humus_soil",
+    "particle": "atmosphere:blocks/frosted_humus_soil"
+  },
+  "render_type": "solid"
+}

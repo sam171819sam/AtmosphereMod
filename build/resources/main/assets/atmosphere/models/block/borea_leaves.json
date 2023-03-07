@@ -1,0 +1,9 @@
+{
+  "parent": "atmosphere:custom/borea_leaves",
+  "textures": {
+    "all": "atmosphere:blocks/borea_leaves",
+    "particle": "atmosphere:blocks/borea_leaves",
+    "0": "atmosphere:blocks/borea_leaves"
+  },
+  "render_type": "cutout"
+}

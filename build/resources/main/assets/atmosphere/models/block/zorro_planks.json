@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "atmosphere:blocks/zorro_planks",
+    "particle": "atmosphere:blocks/zorro_planks"
+  },
+  "render_type": "solid"
+}

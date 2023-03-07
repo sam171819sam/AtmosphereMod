@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "atmosphere:borea_wood",
+    "atmosphere:borea_leaves",
+    "atmosphere:blosorea_vines",
+    "atmosphere:borea_log"
+  ]
+}

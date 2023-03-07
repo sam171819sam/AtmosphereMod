@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "atmosphere:block/borea_slab"
+    },
+    "type=top": {
+      "model": "atmosphere:block/borea_slab_top"
+    },
+    "type=double": {
+      "model": "atmosphere:block/borea_slab_full"
+    }
+  }
+}

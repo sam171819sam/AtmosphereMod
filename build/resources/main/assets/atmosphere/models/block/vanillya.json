@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "atmosphere:blocks/vanillya",
+    "particle": "atmosphere:blocks/vanillya"
+  },
+  "render_type": "solid"
+}

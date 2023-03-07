@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "atmosphere:petal_paradise",
+    "atmosphere:zorro_forest"
+  ],
+  "features": "atmosphere:humus_weed",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "atmosphere:blocks/vanillya_pillar_top",
+    "up": "atmosphere:blocks/vanillya_pillar_top",
+    "north": "atmosphere:blocks/vanillya_pillar",
+    "east": "atmosphere:blocks/vanillya_pillar",
+    "south": "atmosphere:blocks/vanillya_pillar",
+    "west": "atmosphere:blocks/vanillya_pillar",
+    "particle": "atmosphere:blocks/vanillya_pillar_top"
+  },
+  "render_type": "solid"
+}

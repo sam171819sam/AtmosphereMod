@@ -1,0 +1,9 @@
+{
+  "parent": "atmosphere:custom/cloud_fluff",
+  "textures": {
+    "all": "atmosphere:blocks/cloud_block",
+    "particle": "atmosphere:blocks/cloud_block",
+    "0": "atmosphere:blocks/cloud_block"
+  },
+  "render_type": "translucent"
+}

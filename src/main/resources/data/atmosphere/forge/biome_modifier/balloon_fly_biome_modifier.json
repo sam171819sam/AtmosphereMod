@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "atmosphere:wavy_meadow",
+    "atmosphere:petal_paradise"
+  ],
+  "spawners": {
+    "type": "atmosphere:balloon_fly",
+    "weight": 18,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BoreaLeaves"
+      },
+      {
+        "value": "CUSTOM:ZorroLeaves"
+      },
+      {
+        "value": "CUSTOM:FloweringZorroLeaves"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "leaves",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "atmosphere:items/witch_pool"
+  },
+  "render_type": "translucent"
+}

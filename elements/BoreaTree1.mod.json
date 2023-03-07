@@ -1,0 +1,30 @@
+{
+  "_fv": 39,
+  "_type": "structure",
+  "definition": {
+    "structure": "borea_tree1",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1000000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -2,
+    "spawnXOffset": -6,
+    "spawnZOffset": -6,
+    "spawnWorldTypes": [
+      "CUSTOM:AtmosphereDimension"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:HumusGrassBlock"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:PetalParadise"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "atmosphere:frozen_ice",
+  "config": {
+    "target": {
+      "Name": "atmosphere:frosted_ice_block"
+    },
+    "state": {
+      "Name": "atmosphere:frozen_ice_block"
+    },
+    "radius": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 6,
+        "max_inclusive": 10
+      }
+    }
+  }
+}

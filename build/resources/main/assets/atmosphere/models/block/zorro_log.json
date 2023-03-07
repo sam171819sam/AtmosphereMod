@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "atmosphere:blocks/zorro_log_top",
+    "up": "atmosphere:blocks/zorro_log_top",
+    "north": "atmosphere:blocks/zorro_log",
+    "east": "atmosphere:blocks/zorro_log",
+    "south": "atmosphere:blocks/zorro_log",
+    "west": "atmosphere:blocks/zorro_log",
+    "particle": "atmosphere:blocks/zorro_log_top"
+  },
+  "render_type": "solid"
+}

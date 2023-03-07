@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "atmosphere:shatter_stone",
+    "atmosphere:gusty_grass",
+    "minecraft:snow_block",
+    "atmosphere:frosted_ice_block",
+    "atmosphere:stardust_sand",
+    "atmosphere:sparkling_starstone",
+    "atmosphere:humus_grass_block",
+    "atmosphere:humus_soil"
+  ]
+}

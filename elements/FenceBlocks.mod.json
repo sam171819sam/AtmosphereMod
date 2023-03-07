@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BoreaFence"
+      },
+      {
+        "value": "CUSTOM:ZorroFence"
+      },
+      {
+        "value": "CUSTOM:ZorroFenceGate"
+      },
+      {
+        "value": "CUSTOM:HornaFenceGate"
+      },
+      {
+        "value": "CUSTOM:HornaFence"
+      },
+      {
+        "value": "CUSTOM:BoreaFenceGate"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "fences",
+    "namespace": "minecraft"
+  }
+}

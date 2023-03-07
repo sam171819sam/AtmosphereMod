@@ -1,0 +1,22 @@
+{
+  "death_whistle": {
+    "category": "hostile",
+    "subtitle": "subtitles.death_whistle",
+    "sounds": [
+      {
+        "name": "atmosphere:the_whistle_of_death_-_puss_in_boots_2",
+        "stream": false
+      }
+    ]
+  },
+  "fire_burst": {
+    "category": "neutral",
+    "subtitle": "subtitles.fire_burst",
+    "sounds": [
+      {
+        "name": "atmosphere:fire_burst",
+        "stream": false
+      }
+    ]
+  }
+}

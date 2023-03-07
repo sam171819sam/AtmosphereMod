@@ -1,0 +1,59 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.scroll_on_a_stick",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "whole",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "scroll",
+					"parent": "whole",
+					"pivot": [1.5, 26, -1.5]
+				},
+				{
+					"name": "scroll_part1",
+					"parent": "scroll",
+					"pivot": [1.5, 26, -1.5],
+					"cubes": [
+						{"origin": [1.5, 21, -1.4], "size": [4, 10, 0], "pivot": [1.5, 31, -1.5], "rotation": [0, 0, 7.5], "uv": [20, 0]}
+					]
+				},
+				{
+					"name": "scroll_part2",
+					"parent": "scroll_part1",
+					"pivot": [4.5, 25, -1.5],
+					"cubes": [
+						{"origin": [5.5, 21, -1.4], "size": [4, 10, 0], "pivot": [1.5, 31, -1.5], "rotation": [0, 0, 7.5], "uv": [16, 13]}
+					]
+				},
+				{
+					"name": "scroll_part3",
+					"parent": "scroll_part2",
+					"pivot": [8.5, 25, -1.5],
+					"cubes": [
+						{"origin": [9.5, 21, -1.4], "size": [4, 10, 0], "pivot": [1.5, 31, -1.5], "rotation": [0, 0, 7.5], "uv": [8, 13]}
+					]
+				},
+				{
+					"name": "stick",
+					"parent": "whole",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 21, -1.5], "size": [3, 10, 3], "uv": [8, 0]},
+						{"origin": [-1, 0, -1], "size": [2, 32, 2], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

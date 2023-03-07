@@ -1,0 +1,9 @@
+{
+  "parent": "atmosphere:custom/fl_zorro_leaves",
+  "textures": {
+    "all": "atmosphere:blocks/flowering_zorro_leaves",
+    "particle": "atmosphere:blocks/flowering_zorro_leaves",
+    "7": "atmosphere:blocks/flowering_zorro_leaves"
+  },
+  "render_type": "translucent"
+}

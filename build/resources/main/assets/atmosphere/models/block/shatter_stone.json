@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "atmosphere:blocks/shatter_stone",
+    "up": "atmosphere:blocks/shatter_stone",
+    "north": "atmosphere:blocks/shatter_stone",
+    "east": "atmosphere:blocks/shatter_stone",
+    "south": "atmosphere:blocks/shatter_stone",
+    "west": "atmosphere:blocks/shatter_stone",
+    "particle": "atmosphere:blocks/shatter_stone"
+  },
+  "render_type": "solid"
+}

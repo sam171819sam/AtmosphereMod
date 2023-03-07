@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "atmosphere:block/horna_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "atmosphere:block/horna_log"
+    },
+    "axis=z": {
+      "model": "atmosphere:block/horna_log",
+      "x": 90
+    }
+  }
+}

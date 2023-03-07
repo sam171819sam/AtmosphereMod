@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "atmosphere:zorro_planks"
+    }
+  ],
+  "result": {
+    "item": "atmosphere:zorro_button",
+    "count": 1
+  }
+}

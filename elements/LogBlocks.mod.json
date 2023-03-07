@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BoreaWood"
+      },
+      {
+        "value": "CUSTOM:BoreaLog"
+      },
+      {
+        "value": "CUSTOM:ZorroWood"
+      },
+      {
+        "value": "CUSTOM:ZorroLog"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

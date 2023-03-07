@@ -1,0 +1,10 @@
+{
+  "parent": "atmosphere:custom/tub",
+  "textures": {
+    "all": "atmosphere:blocks/tub",
+    "particle": "atmosphere:blocks/tub",
+    "4": "atmosphere:blocks/tub",
+    "missing": "atmosphere:blocks/tub"
+  },
+  "render_type": "translucent"
+}

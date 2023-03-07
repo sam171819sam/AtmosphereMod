@@ -1,0 +1,6 @@
+JVM:         C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--client", "C:\Users\43660\MCreatorWorkspaces\atmosphere\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\stripClient\output.jar", "--server", "C:\Users\43660\MCreatorWorkspaces\atmosphere\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\stripServer\output.jar", "--ann", "1.19.2", "--output", "C:\Users\43660\MCreatorWorkspaces\atmosphere\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\merge\output.jar", "--inject", "false"
+Classpath:   C:\Users\43660\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar
+Working Dir: C:\Users\43660\MCreatorWorkspaces\atmosphere\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
