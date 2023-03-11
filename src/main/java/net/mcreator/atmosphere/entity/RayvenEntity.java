@@ -41,6 +41,7 @@ import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.atmosphere.procedures.RayvenSolidBoundingBoxConditionProcedure;
 import net.mcreator.atmosphere.init.AtmosphereModEntities;
 
 public class RayvenEntity extends PathfinderMob implements IAnimatable {
@@ -78,6 +79,21 @@ public class RayvenEntity extends PathfinderMob implements IAnimatable {
 
 	public String getTexture() {
 		return this.entityData.get(TEXTURE);
+	}
+
+	@Override
+	public boolean canCollideWith(Entity entity) {
+		return true;
+	}
+
+	@Override
+	public boolean canBeCollidedWith() {
+		Entity entity = this;
+		Level world = entity.level;
+		double x = entity.getX();
+		double y = entity.getY();
+		double z = entity.getZ();
+		return RayvenSolidBoundingBoxConditionProcedure.execute();
 	}
 
 	@Override

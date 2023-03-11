@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "atmosphere:block/virony"
+    },
+    "half=lower": {
+      "model": "atmosphere:block/virony_bottom"
+    }
+  }
+}

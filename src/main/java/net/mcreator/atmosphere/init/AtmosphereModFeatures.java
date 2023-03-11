@@ -11,11 +11,13 @@ import net.minecraftforge.fml.common.Mod;
 
 import net.minecraft.world.level.levelgen.feature.Feature;
 
+import net.mcreator.atmosphere.world.features.plants.VironyFeature;
 import net.mcreator.atmosphere.world.features.plants.HumusWeedFeature;
 import net.mcreator.atmosphere.world.features.ores.ShatterStoneFeature;
 import net.mcreator.atmosphere.world.features.ores.RawLuminumBlockFeature;
 import net.mcreator.atmosphere.world.features.ores.LuminumOreFeature;
 import net.mcreator.atmosphere.world.features.ores.CobbledShatterStoneFeature;
+import net.mcreator.atmosphere.world.features.ZorroForestDirtPatchesFeature;
 import net.mcreator.atmosphere.world.features.LuminescentLodeGenerationFeature;
 import net.mcreator.atmosphere.world.features.FrozenIceFeature;
 import net.mcreator.atmosphere.world.features.BoreaTree3Feature;
@@ -38,4 +40,6 @@ public class AtmosphereModFeatures {
 	public static final RegistryObject<Feature<?>> FROZEN_ICE = REGISTRY.register("frozen_ice", FrozenIceFeature::new);
 	public static final RegistryObject<Feature<?>> BLOSOREA_FLOWER_SPAWNING = REGISTRY.register("blosorea_flower_spawning", BlosoreaFlowerSpawningFeature::new);
 	public static final RegistryObject<Feature<?>> LUMINESCENT_LODE_GENERATION = REGISTRY.register("luminescent_lode_generation", LuminescentLodeGenerationFeature::new);
+	public static final RegistryObject<Feature<?>> VIRONY = REGISTRY.register("virony", VironyFeature::feature);
+	public static final RegistryObject<Feature<?>> ZORRO_FOREST_DIRT_PATCHES = REGISTRY.register("zorro_forest_dirt_patches", ZorroForestDirtPatchesFeature::new);
 }

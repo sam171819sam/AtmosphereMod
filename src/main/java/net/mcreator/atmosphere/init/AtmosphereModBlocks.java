@@ -29,6 +29,7 @@ import net.mcreator.atmosphere.block.ZorroDoorBlock;
 import net.mcreator.atmosphere.block.ZorroButtonBlock;
 import net.mcreator.atmosphere.block.WitchPoolBlock;
 import net.mcreator.atmosphere.block.WitchCrushingStoneBlock;
+import net.mcreator.atmosphere.block.VironyBlock;
 import net.mcreator.atmosphere.block.VanillyaWallBlock;
 import net.mcreator.atmosphere.block.VanillyaStairsBlock;
 import net.mcreator.atmosphere.block.VanillyaSlabBlock;
@@ -164,6 +165,7 @@ public class AtmosphereModBlocks {
 	public static final RegistryObject<Block> VANILLYA_BRICK_WALL = REGISTRY.register("vanillya_brick_wall", () -> new VanillyaBrickWallBlock());
 	public static final RegistryObject<Block> ZORRO_MOSS = REGISTRY.register("zorro_moss", () -> new ZorroMossBlock());
 	public static final RegistryObject<Block> HUMUS_WEED = REGISTRY.register("humus_weed", () -> new HumusWeedBlock());
+	public static final RegistryObject<Block> VIRONY = REGISTRY.register("virony", () -> new VironyBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

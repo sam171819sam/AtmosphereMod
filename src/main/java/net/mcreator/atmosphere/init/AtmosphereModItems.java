@@ -75,7 +75,7 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> ZORRO_LEAVES = block(AtmosphereModBlocks.ZORRO_LEAVES, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> ZORRO_STAIRS = block(AtmosphereModBlocks.ZORRO_STAIRS, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> ZORRO_SLAB = block(AtmosphereModBlocks.ZORRO_SLAB, AtmosphereModTabs.TAB_ATMOSPHERE);
-	public static final RegistryObject<Item> ZORRO_FENCE = block(AtmosphereModBlocks.ZORRO_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> ZORRO_FENCE = block(AtmosphereModBlocks.ZORRO_FENCE, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> ZORRO_FENCE_GATE = block(AtmosphereModBlocks.ZORRO_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> ZORRO_PRESSURE_PLATE = block(AtmosphereModBlocks.ZORRO_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> ZORRO_BUTTON = block(AtmosphereModBlocks.ZORRO_BUTTON, AtmosphereModTabs.TAB_ATMOSPHERE);
@@ -86,10 +86,10 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> HORNA_LOG = block(AtmosphereModBlocks.HORNA_LOG, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> HORNA_PLANKS = block(AtmosphereModBlocks.HORNA_PLANKS, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> LUMINESCENT_LODE = block(AtmosphereModBlocks.LUMINESCENT_LODE, AtmosphereModTabs.TAB_ATMOSPHERE);
-	public static final RegistryObject<Item> HORNA_LEAVES = block(AtmosphereModBlocks.HORNA_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> HORNA_LEAVES = block(AtmosphereModBlocks.HORNA_LEAVES, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> HORNA_STAIRS = block(AtmosphereModBlocks.HORNA_STAIRS, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> HORNA_SLAB = block(AtmosphereModBlocks.HORNA_SLAB, AtmosphereModTabs.TAB_ATMOSPHERE);
-	public static final RegistryObject<Item> HORNA_FENCE = block(AtmosphereModBlocks.HORNA_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> HORNA_FENCE = block(AtmosphereModBlocks.HORNA_FENCE, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> CROAKER_SPITTLE = REGISTRY.register("croaker_spittle", () -> new CroakerSpittleItem());
 	public static final RegistryObject<Item> HORNA_FENCE_GATE = block(AtmosphereModBlocks.HORNA_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> HORNA_PRESSURE_PLATE = block(AtmosphereModBlocks.HORNA_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
@@ -124,7 +124,7 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> VANILLYA_WALL = block(AtmosphereModBlocks.VANILLYA_WALL, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> VANILLYA_BRICK_WALL = block(AtmosphereModBlocks.VANILLYA_BRICK_WALL, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> ZORRO_MOSS = block(AtmosphereModBlocks.ZORRO_MOSS, AtmosphereModTabs.TAB_ATMOSPHERE);
-	public static final RegistryObject<Item> HUMUS_WEED = block(AtmosphereModBlocks.HUMUS_WEED, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> HUMUS_WEED = block(AtmosphereModBlocks.HUMUS_WEED, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> BALLOON_FLY_SPAWN_EGG = REGISTRY.register("balloon_fly_spawn_egg",
 			() -> new ForgeSpawnEggItem(AtmosphereModEntities.BALLOON_FLY, -13738158, -13974358, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
 	public static final RegistryObject<Item> RAYVEN_SPAWN_EGG = REGISTRY.register("rayven_spawn_egg", () -> new ForgeSpawnEggItem(AtmosphereModEntities.RAYVEN, -14770315, -9344992, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
@@ -133,6 +133,9 @@ public class AtmosphereModItems {
 			() -> new ForgeSpawnEggItem(AtmosphereModEntities.WINDCALLER, -6369803, -12230982, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
 	public static final RegistryObject<Item> SQUALL_SPAWN_EGG = REGISTRY.register("squall_spawn_egg", () -> new ForgeSpawnEggItem(AtmosphereModEntities.SQUALL, -10520361, -13092806, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
 	public static final RegistryObject<Item> CROAKER_SPAWN_EGG = REGISTRY.register("croaker_spawn_egg", () -> new ForgeSpawnEggItem(AtmosphereModEntities.CROAKER, -14647716, -3004002, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
+	public static final RegistryObject<Item> VIRONY = doubleBlock(AtmosphereModBlocks.VIRONY, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> SCOUTY_SPAWN_EGG = REGISTRY.register("scouty_spawn_egg", () -> new ForgeSpawnEggItem(AtmosphereModEntities.SCOUTY, -1173581, -693311, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
+	public static final RegistryObject<Item> SADDLER_SPAWN_EGG = REGISTRY.register("saddler_spawn_egg", () -> new ForgeSpawnEggItem(AtmosphereModEntities.SADDLER, -9022074, -7703141, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

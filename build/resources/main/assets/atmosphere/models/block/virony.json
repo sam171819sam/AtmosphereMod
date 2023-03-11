@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "atmosphere:blocks/virony_upper",
+    "particle": "atmosphere:blocks/virony_upper"
+  },
+  "render_type": "cutout"
+}

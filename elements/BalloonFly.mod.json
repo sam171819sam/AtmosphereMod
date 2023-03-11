@@ -5,7 +5,7 @@
     "mobName": "Balloon Fly",
     "mobLabel": "",
     "mobModelTexture": "balloonfly.png",
-    "mobModelGlowTexture": "balloonfly_glow.png",
+    "mobModelGlowTexture": "",
     "visualScale": {
       "fixedValue": 1.0
     },

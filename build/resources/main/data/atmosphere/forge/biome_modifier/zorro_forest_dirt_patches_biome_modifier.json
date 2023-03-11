@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "atmosphere:zorro_forest",
+  "features": "atmosphere:zorro_forest_dirt_patches",
+  "step": "raw_generation"
+}

@@ -13,7 +13,9 @@ import net.mcreator.atmosphere.client.renderer.WindcallerRenderer;
 import net.mcreator.atmosphere.client.renderer.WindRenderer;
 import net.mcreator.atmosphere.client.renderer.SquallRenderer;
 import net.mcreator.atmosphere.client.renderer.SecureShieldRenderer;
+import net.mcreator.atmosphere.client.renderer.ScoutyRenderer;
 import net.mcreator.atmosphere.client.renderer.SaintRenderer;
+import net.mcreator.atmosphere.client.renderer.SaddlerRenderer;
 import net.mcreator.atmosphere.client.renderer.RayvenRenderer;
 import net.mcreator.atmosphere.client.renderer.FireburstRenderer;
 import net.mcreator.atmosphere.client.renderer.CroakerRenderer;
@@ -32,5 +34,7 @@ public class AtmosphereModEntityRenderers {
 		event.registerEntityRenderer(AtmosphereModEntities.CROAKER.get(), CroakerRenderer::new);
 		event.registerEntityRenderer(AtmosphereModEntities.FIREBURST.get(), FireburstRenderer::new);
 		event.registerEntityRenderer(AtmosphereModEntities.SECURE_SHIELD.get(), SecureShieldRenderer::new);
+		event.registerEntityRenderer(AtmosphereModEntities.SCOUTY.get(), ScoutyRenderer::new);
+		event.registerEntityRenderer(AtmosphereModEntities.SADDLER.get(), SaddlerRenderer::new);
 	}
 }

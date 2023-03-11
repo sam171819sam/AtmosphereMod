@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "atmosphere:petal_paradise",
+  "features": "atmosphere:virony",
+  "step": "vegetal_decoration"
+}

@@ -151,7 +151,7 @@ public class WindEntity extends PathfinderMob implements IAnimatable {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		WindOnEntityTickUpdateProcedure.execute(this.level, this);
+		WindOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
 		this.refreshDimensions();
 	}
 

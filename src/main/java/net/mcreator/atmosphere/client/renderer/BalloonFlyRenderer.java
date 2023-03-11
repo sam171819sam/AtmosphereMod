@@ -9,7 +9,6 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
 import net.mcreator.atmosphere.entity.model.BalloonFlyModel;
-import net.mcreator.atmosphere.entity.layer.BalloonFlyLayer;
 import net.mcreator.atmosphere.entity.BalloonFlyEntity;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -19,7 +18,6 @@ public class BalloonFlyRenderer extends GeoEntityRenderer<BalloonFlyEntity> {
 	public BalloonFlyRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new BalloonFlyModel());
 		this.shadowRadius = 0f;
-		this.addLayer(new BalloonFlyLayer(this));
 	}
 
 	@Override

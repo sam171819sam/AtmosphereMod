@@ -12,6 +12,9 @@
     "boundingBoxScale": {
       "fixedValue": 1.0
     },
+    "solidBoundingBox": {
+      "name": "RayvenSolidBoundingBoxCondition"
+    },
     "modelWidth": 4.6,
     "modelHeight": 1.5999999999999999,
     "modelShadowSize": 0.6,

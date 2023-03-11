@@ -1,0 +1,30 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:Squall"
+      },
+      {
+        "value": "CUSTOM:Wind"
+      },
+      {
+        "value": "CUSTOM:Windcaller"
+      },
+      {
+        "value": "CUSTOM:Fireburst"
+      },
+      {
+        "value": "CUSTOM:SecureShield"
+      }
+    ],
+    "biomes": [],
+    "name": "wind_invulnerable",
+    "namespace": "forge"
+  }
+}

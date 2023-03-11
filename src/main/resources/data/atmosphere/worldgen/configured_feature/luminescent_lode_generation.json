@@ -1,8 +1,9 @@
 {
   "type": "atmosphere:luminescent_lode_generation",
   "config": {
-    "tries": 500,
-    "y_spread": 7,
+    "tries": 300,
+    "xz_spread": 4,
+    "y_spread": 4,
     "feature": {
       "feature": {
         "type": "minecraft:simple_block",
@@ -26,16 +27,34 @@
                 "blocks": "minecraft:air"
               },
               {
-                "type": "minecraft:matching_blocks",
-                "blocks": [
-                  "atmosphere:shatter_stone",
-                  "atmosphere:cobbled_shatter_stone",
-                  "atmosphere:luminescent_lode"
-                ],
-                "offset": [
-                  0,
-                  1,
-                  0
+                "type": "minecraft:any_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "atmosphere:shatter_stone",
+                      "atmosphere:cobbled_shatter_stone",
+                      "atmosphere:luminescent_lode"
+                    ],
+                    "offset": [
+                      0,
+                      1,
+                      0
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "atmosphere:shatter_stone",
+                      "atmosphere:cobbled_shatter_stone",
+                      "atmosphere:luminescent_lode"
+                    ],
+                    "offset": [
+                      0,
+                      2,
+                      0
+                    ]
+                  }
                 ]
               }
             ]

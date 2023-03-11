@@ -46,6 +46,11 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
+import net.minecraft.world.entity.ai.control.MoveControl;
+import net.minecraft.util.Mth;
+import net.minecraft.nbt.CompoundTag;
+import javax.annotation.Nullable;
+import net.minecraft.world.entity.ai.goal.FloatGoal;
 
 import net.mcreator.atmosphere.init.AtmosphereModEntities;
 
@@ -60,6 +65,10 @@ public class SquallEntity extends Monster implements IAnimatable {
 	private boolean lastloop;
 	private long lastSwing;
 	public String animationprocedure = "empty";
+	   @Nullable
+   private BlockPos boundOrigin;
+   private boolean hasLimitedLife;
+   private int limitedLifeTicks;
 
 	public SquallEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(AtmosphereModEntities.SQUALL.get(), world);
@@ -70,7 +79,7 @@ public class SquallEntity extends Monster implements IAnimatable {
 		xpReward = 1;
 		setNoAi(false);
 		setPersistenceRequired();
-		this.moveControl = new FlyingMoveControl(this, 10, true);
+		this.moveControl = new SquallMoveControl(this);
 	}
 
 	@Override
@@ -89,6 +98,11 @@ public class SquallEntity extends Monster implements IAnimatable {
 		return this.entityData.get(TEXTURE);
 	}
 
+	public void setLimitedLife(int p_33988_) {
+      this.hasLimitedLife = true;
+      this.limitedLifeTicks = p_33988_;
+   }
+
 	@Override
 	public Packet<?> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
@@ -102,6 +116,7 @@ public class SquallEntity extends Monster implements IAnimatable {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
+		this.goalSelector.addGoal(0, new FloatGoal(this));
 		this.goalSelector.addGoal(1, new Goal() {
 			{
 				this.setFlags(EnumSet.of(Goal.Flag.MOVE));
@@ -141,24 +156,15 @@ public class SquallEntity extends Monster implements IAnimatable {
 				}
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1, 20) {
-			@Override
-			protected Vec3 getPosition() {
-				RandomSource random = SquallEntity.this.getRandom();
-				double dir_x = SquallEntity.this.getX() + ((random.nextFloat() * 2 - 1) * 16);
-				double dir_y = SquallEntity.this.getY() + ((random.nextFloat() * 2 - 1) * 16);
-				double dir_z = SquallEntity.this.getZ() + ((random.nextFloat() * 2 - 1) * 16);
-				return new Vec3(dir_x, dir_y, dir_z);
-			}
-		});
-		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1, false) {
+		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(5, new HurtByTargetGoal(this));
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(5, new SquallRandomMoveGoal());
 	}
 
 	@Override
@@ -220,6 +226,26 @@ public class SquallEntity extends Monster implements IAnimatable {
 
 	public static void init() {
 	}
+
+   public void readAdditionalSaveData(CompoundTag p_34008_) {
+      super.readAdditionalSaveData(p_34008_);
+      if (p_34008_.contains("BoundX")) {
+         this.boundOrigin = new BlockPos(p_34008_.getInt("BoundX"), p_34008_.getInt("BoundY"), p_34008_.getInt("BoundZ"));
+      }
+
+      if (p_34008_.contains("LifeTicks")) {
+         this.setLimitedLife(p_34008_.getInt("LifeTicks"));
+      }
+
+   }
+	   @Nullable
+   public BlockPos getBoundOrigin() {
+      return this.boundOrigin;
+   }
+
+   public void setBoundOrigin(@Nullable BlockPos p_34034_) {
+      this.boundOrigin = p_34034_;
+   }
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
@@ -305,4 +331,65 @@ public class SquallEntity extends Monster implements IAnimatable {
 	public AnimationFactory getFactory() {
 		return this.factory;
 	}
+	class SquallMoveControl extends MoveControl {
+      public SquallMoveControl(SquallEntity p_34062_) {
+         super(p_34062_);
+      }
+
+      public void tick() {
+         if (this.operation == MoveControl.Operation.MOVE_TO) {
+            Vec3 vec3 = new Vec3(this.wantedX - SquallEntity.this.getX(), this.wantedY - SquallEntity.this.getY(), this.wantedZ - SquallEntity.this.getZ());
+            double d0 = vec3.length();
+            if (d0 < SquallEntity.this.getBoundingBox().getSize()) {
+               this.operation = MoveControl.Operation.WAIT;
+               SquallEntity.this.setDeltaMovement(SquallEntity.this.getDeltaMovement().scale(0.5D));
+            } else {
+               SquallEntity.this.setDeltaMovement(SquallEntity.this.getDeltaMovement().add(vec3.scale(this.speedModifier * 0.05D / d0)));
+               if (SquallEntity.this.getTarget() == null) {
+                  Vec3 vec31 = SquallEntity.this.getDeltaMovement();
+                  SquallEntity.this.setYRot(-((float)Mth.atan2(vec31.x, vec31.z)) * (180F / (float)Math.PI));
+                  SquallEntity.this.yBodyRot = SquallEntity.this.getYRot();
+               } else {
+                  double d2 = SquallEntity.this.getTarget().getX() - SquallEntity.this.getX();
+                  double d1 = SquallEntity.this.getTarget().getZ() - SquallEntity.this.getZ();
+                  SquallEntity.this.setYRot(-((float)Mth.atan2(d2, d1)) * (180F / (float)Math.PI));
+                  SquallEntity.this.yBodyRot = SquallEntity.this.getYRot();
+               }
+            }
+
+         }
+      }
+   }
+  class SquallRandomMoveGoal extends Goal {
+      public SquallRandomMoveGoal() {
+         this.setFlags(EnumSet.of(Goal.Flag.MOVE));
+      }
+
+      public boolean canUse() {
+         return !SquallEntity.this.getMoveControl().hasWanted() && SquallEntity.this.random.nextInt(reducedTickDelay(7)) == 0;
+      }
+
+      public boolean canContinueToUse() {
+         return false;
+      }
+
+      public void tick() {
+		BlockPos blockpos = SquallEntity.this.getBoundOrigin();
+         if (blockpos == null) {
+            blockpos = SquallEntity.this.blockPosition();
+         }
+
+         for(int i = 0; i < 3; ++i) {
+            BlockPos blockpos1 = blockpos.offset(SquallEntity.this.random.nextInt(15) - 7, SquallEntity.this.random.nextInt(11) - 5, SquallEntity.this.random.nextInt(15) - 7);
+            if (SquallEntity.this.level.isEmptyBlock(blockpos1)) {
+               SquallEntity.this.moveControl.setWantedPosition((double)blockpos1.getX() + 0.5D, (double)blockpos1.getY() + 0.5D, (double)blockpos1.getZ() + 0.5D, 0.25D);
+               if (SquallEntity.this.getTarget() == null) {
+                  SquallEntity.this.getLookControl().setLookAt((double)blockpos1.getX() + 0.5D, (double)blockpos1.getY() + 0.5D, (double)blockpos1.getZ() + 0.5D, 180.0F, 20.0F);
+               }
+               break;
+            }
+         }
+
+      }
+   }
 }

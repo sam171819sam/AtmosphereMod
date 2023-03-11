@@ -3,7 +3,7 @@
   "_type": "block",
   "definition": {
     "texture": "humus_soil",
-    "textureTop": "humus_grass_block_toptest",
+    "textureTop": "humus_grass_block_top_layer",
     "textureLeft": "humus_grass_layer",
     "textureFront": "humus_grass_block",
     "textureRight": "humus_grass_blocktest",

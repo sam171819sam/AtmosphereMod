@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "atmosphere:squall",
+    "atmosphere:wind",
+    "atmosphere:fireburst",
+    "atmosphere:secure_shield",
+    "atmosphere:windcaller"
+  ]
+}

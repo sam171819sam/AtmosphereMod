@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "atmosphere:horna_forest",
+  "spawners": {
+    "type": "atmosphere:saddler",
+    "weight": 18,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

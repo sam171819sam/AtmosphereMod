@@ -20,7 +20,9 @@ import net.mcreator.atmosphere.entity.WindcallerEntity;
 import net.mcreator.atmosphere.entity.WindEntity;
 import net.mcreator.atmosphere.entity.SquallEntity;
 import net.mcreator.atmosphere.entity.SecureShieldEntity;
+import net.mcreator.atmosphere.entity.ScoutyEntity;
 import net.mcreator.atmosphere.entity.SaintEntity;
+import net.mcreator.atmosphere.entity.SaddlerEntity;
 import net.mcreator.atmosphere.entity.RayvenEntity;
 import net.mcreator.atmosphere.entity.FireburstEntity;
 import net.mcreator.atmosphere.entity.CroakerEntity;
@@ -57,9 +59,17 @@ public class AtmosphereModEntities {
 	public static final RegistryObject<EntityType<FireburstEntity>> FIREBURST = register("fireburst",
 			EntityType.Builder.<FireburstEntity>of(FireburstEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FireburstEntity::new)
 
-					.sized(0.1f, 0.1f));
+					.sized(0.19999999999999998f, 1f));
 	public static final RegistryObject<EntityType<SecureShieldEntity>> SECURE_SHIELD = register("secure_shield", EntityType.Builder.<SecureShieldEntity>of(SecureShieldEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SecureShieldEntity::new).fireImmune().sized(0.1f, 2f));
+	public static final RegistryObject<EntityType<ScoutyEntity>> SCOUTY = register("scouty",
+			EntityType.Builder.<ScoutyEntity>of(ScoutyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ScoutyEntity::new)
+
+					.sized(0.6f, 0.7999999999999999f));
+	public static final RegistryObject<EntityType<SaddlerEntity>> SADDLER = register("saddler",
+			EntityType.Builder.<SaddlerEntity>of(SaddlerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SaddlerEntity::new)
+
+					.sized(1.2f, 2.1999999999999997f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -77,6 +87,8 @@ public class AtmosphereModEntities {
 			CroakerEntity.init();
 			FireburstEntity.init();
 			SecureShieldEntity.init();
+			ScoutyEntity.init();
+			SaddlerEntity.init();
 		});
 	}
 
@@ -91,5 +103,7 @@ public class AtmosphereModEntities {
 		event.put(CROAKER.get(), CroakerEntity.createAttributes().build());
 		event.put(FIREBURST.get(), FireburstEntity.createAttributes().build());
 		event.put(SECURE_SHIELD.get(), SecureShieldEntity.createAttributes().build());
+		event.put(SCOUTY.get(), ScoutyEntity.createAttributes().build());
+		event.put(SADDLER.get(), SaddlerEntity.createAttributes().build());
 	}
 }

@@ -33,7 +33,7 @@
     "name": "Humus Weed",
     "specialInfo": [],
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:Atmosphere"
     },
     "hardness": 0.0,
     "resistance": 0.0,
