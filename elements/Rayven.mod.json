@@ -15,8 +15,8 @@
     "solidBoundingBox": {
       "name": "RayvenSolidBoundingBoxCondition"
     },
-    "modelWidth": 4.6,
-    "modelHeight": 1.5999999999999999,
+    "modelWidth": 3.9999999999999996,
+    "modelHeight": 1.2,
     "modelShadowSize": 0.6,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,

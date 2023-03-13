@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "atmosphere:virony",
+    "atmosphere:blosorea_flower",
     "atmosphere:flowering_zorro_leaves"
   ]
 }

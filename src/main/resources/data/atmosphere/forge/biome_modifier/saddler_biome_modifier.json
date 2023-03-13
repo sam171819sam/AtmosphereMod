@@ -3,7 +3,7 @@
   "biomes": "atmosphere:horna_forest",
   "spawners": {
     "type": "atmosphere:saddler",
-    "weight": 18,
+    "weight": 35,
     "minCount": 2,
     "maxCount": 4
   }

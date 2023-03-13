@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "minecraft:snow",
+    "minecraft:snow_block"
+  ]
 }

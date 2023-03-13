@@ -5,25 +5,13 @@
     "type": "Items",
     "items": [
       {
+        "value": "CUSTOM:BoreaPlanks"
+      },
+      {
         "value": "CUSTOM:ZorroPlanks"
       },
       {
-        "value": "CUSTOM:ZorroStairs"
-      },
-      {
-        "value": "CUSTOM:ZorroSlab"
-      },
-      {
-        "value": "CUSTOM:ZorroFence"
-      },
-      {
-        "value": "CUSTOM:ZorroFenceGate"
-      },
-      {
-        "value": "CUSTOM:ZorroPressurePlate"
-      },
-      {
-        "value": "CUSTOM:ZorroButton"
+        "value": "CUSTOM:HornaPlanks"
       }
     ],
     "blocks": [],

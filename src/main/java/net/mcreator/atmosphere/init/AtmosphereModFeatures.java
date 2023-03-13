@@ -20,6 +20,7 @@ import net.mcreator.atmosphere.world.features.ores.CobbledShatterStoneFeature;
 import net.mcreator.atmosphere.world.features.ZorroForestDirtPatchesFeature;
 import net.mcreator.atmosphere.world.features.LuminescentLodeGenerationFeature;
 import net.mcreator.atmosphere.world.features.FrozenIceFeature;
+import net.mcreator.atmosphere.world.features.FrostedShatterStonePlacementFeature;
 import net.mcreator.atmosphere.world.features.BoreaTree3Feature;
 import net.mcreator.atmosphere.world.features.BoreaTree2Feature;
 import net.mcreator.atmosphere.world.features.BoreaTree1Feature;
@@ -42,4 +43,5 @@ public class AtmosphereModFeatures {
 	public static final RegistryObject<Feature<?>> LUMINESCENT_LODE_GENERATION = REGISTRY.register("luminescent_lode_generation", LuminescentLodeGenerationFeature::new);
 	public static final RegistryObject<Feature<?>> VIRONY = REGISTRY.register("virony", VironyFeature::feature);
 	public static final RegistryObject<Feature<?>> ZORRO_FOREST_DIRT_PATCHES = REGISTRY.register("zorro_forest_dirt_patches", ZorroForestDirtPatchesFeature::new);
+	public static final RegistryObject<Feature<?>> FROSTED_SHATTER_STONE_PLACEMENT = REGISTRY.register("frosted_shatter_stone_placement", FrostedShatterStonePlacementFeature::new);
 }

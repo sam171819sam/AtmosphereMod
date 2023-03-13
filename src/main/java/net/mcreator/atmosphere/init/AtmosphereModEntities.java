@@ -39,7 +39,7 @@ public class AtmosphereModEntities {
 	public static final RegistryObject<EntityType<RayvenEntity>> RAYVEN = register("rayven",
 			EntityType.Builder.<RayvenEntity>of(RayvenEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RayvenEntity::new)
 
-					.sized(4.6f, 1.5999999999999999f));
+					.sized(3.9999999999999996f, 1.2f));
 	public static final RegistryObject<EntityType<SaintEntity>> SAINT = register("saint",
 			EntityType.Builder.<SaintEntity>of(SaintEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SaintEntity::new)
 
@@ -65,7 +65,7 @@ public class AtmosphereModEntities {
 	public static final RegistryObject<EntityType<ScoutyEntity>> SCOUTY = register("scouty",
 			EntityType.Builder.<ScoutyEntity>of(ScoutyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ScoutyEntity::new)
 
-					.sized(0.6f, 0.7999999999999999f));
+					.sized(0.4f, 0.7000000000000001f));
 	public static final RegistryObject<EntityType<SaddlerEntity>> SADDLER = register("saddler",
 			EntityType.Builder.<SaddlerEntity>of(SaddlerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SaddlerEntity::new)
 

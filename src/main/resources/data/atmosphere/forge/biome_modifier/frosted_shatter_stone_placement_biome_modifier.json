@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "atmosphere:horna_forest",
+  "features": "atmosphere:frosted_shatter_stone_placement",
+  "step": "raw_generation"
+}

@@ -4,7 +4,14 @@
   "definition": {
     "type": "Blocks",
     "items": [],
-    "blocks": [],
+    "blocks": [
+      {
+        "value": "Blocks.SNOW"
+      },
+      {
+        "value": "Blocks.SNOW_LAYER"
+      }
+    ],
     "functions": [],
     "entities": [],
     "biomes": [],

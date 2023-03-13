@@ -1,0 +1,18 @@
+{
+  "type": "atmosphere:frosted_shatter_stone_placement",
+  "config": {
+    "target": {
+      "Name": "atmosphere:shatter_stone"
+    },
+    "state": {
+      "Name": "atmosphere:frosted_shatter_stone"
+    },
+    "radius": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 6,
+        "max_inclusive": 12
+      }
+    }
+  }
+}
