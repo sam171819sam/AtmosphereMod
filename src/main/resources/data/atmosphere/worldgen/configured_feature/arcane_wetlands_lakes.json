@@ -1,0 +1,28 @@
+{
+  "type": "atmosphere:arcane_wetlands_lakes",
+  "config": {
+    "contents": {
+      "Name": "minecraft:water",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    "rim": {
+      "Name": "atmosphere:humus_grass_block"
+    },
+    "size": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 6,
+        "max_inclusive": 16
+      }
+    },
+    "rim_size": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 0,
+        "max_inclusive": 0
+      }
+    }
+  }
+}

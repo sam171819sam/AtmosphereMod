@@ -17,6 +17,9 @@
       },
       {
         "value": "CUSTOM:StardustValley"
+      },
+      {
+        "value": "CUSTOM:ArcaneWetlands"
       }
     ],
     "worldGenType": "End like gen",

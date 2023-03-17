@@ -25,6 +25,7 @@ import net.mcreator.atmosphere.world.features.BoreaTree3Feature;
 import net.mcreator.atmosphere.world.features.BoreaTree2Feature;
 import net.mcreator.atmosphere.world.features.BoreaTree1Feature;
 import net.mcreator.atmosphere.world.features.BlosoreaFlowerSpawningFeature;
+import net.mcreator.atmosphere.world.features.ArcaneWetlandsLakesFeature;
 import net.mcreator.atmosphere.AtmosphereMod;
 
 @Mod.EventBusSubscriber
@@ -44,4 +45,5 @@ public class AtmosphereModFeatures {
 	public static final RegistryObject<Feature<?>> VIRONY = REGISTRY.register("virony", VironyFeature::feature);
 	public static final RegistryObject<Feature<?>> ZORRO_FOREST_DIRT_PATCHES = REGISTRY.register("zorro_forest_dirt_patches", ZorroForestDirtPatchesFeature::new);
 	public static final RegistryObject<Feature<?>> FROSTED_SHATTER_STONE_PLACEMENT = REGISTRY.register("frosted_shatter_stone_placement", FrostedShatterStonePlacementFeature::new);
+	public static final RegistryObject<Feature<?>> ARCANE_WETLANDS_LAKES = REGISTRY.register("arcane_wetlands_lakes", ArcaneWetlandsLakesFeature::new);
 }

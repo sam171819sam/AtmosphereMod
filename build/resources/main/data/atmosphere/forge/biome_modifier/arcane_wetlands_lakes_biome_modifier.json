@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "atmosphere:arcane_wetlands",
+  "features": "atmosphere:arcane_wetlands_lakes",
+  "step": "raw_generation"
+}

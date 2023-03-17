@@ -15,6 +15,7 @@ import net.mcreator.atmosphere.world.biome.WavyMeadowBiome;
 import net.mcreator.atmosphere.world.biome.StardustValleyBiome;
 import net.mcreator.atmosphere.world.biome.PetalParadiseBiome;
 import net.mcreator.atmosphere.world.biome.HornaForestBiome;
+import net.mcreator.atmosphere.world.biome.ArcaneWetlandsBiome;
 import net.mcreator.atmosphere.AtmosphereMod;
 
 public class AtmosphereModBiomes {
@@ -24,4 +25,5 @@ public class AtmosphereModBiomes {
 	public static final RegistryObject<Biome> ZORRO_FOREST = REGISTRY.register("zorro_forest", ZorroForestBiome::createBiome);
 	public static final RegistryObject<Biome> STARDUST_VALLEY = REGISTRY.register("stardust_valley", StardustValleyBiome::createBiome);
 	public static final RegistryObject<Biome> HORNA_FOREST = REGISTRY.register("horna_forest", HornaForestBiome::createBiome);
+	public static final RegistryObject<Biome> ARCANE_WETLANDS = REGISTRY.register("arcane_wetlands", ArcaneWetlandsBiome::createBiome);
 }
