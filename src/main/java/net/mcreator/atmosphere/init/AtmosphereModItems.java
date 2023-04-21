@@ -136,6 +136,9 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> VIRONY = doubleBlock(AtmosphereModBlocks.VIRONY, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> SCOUTY_SPAWN_EGG = REGISTRY.register("scouty_spawn_egg", () -> new ForgeSpawnEggItem(AtmosphereModEntities.SCOUTY, -1173581, -693311, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
 	public static final RegistryObject<Item> SADDLER_SPAWN_EGG = REGISTRY.register("saddler_spawn_egg", () -> new ForgeSpawnEggItem(AtmosphereModEntities.SADDLER, -9022074, -7703141, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
+	public static final RegistryObject<Item> ERUPTITE = block(AtmosphereModBlocks.ERUPTITE, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> POLISHED_ERUPTITE = block(AtmosphereModBlocks.POLISHED_ERUPTITE, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> EMBER = block(AtmosphereModBlocks.EMBER, AtmosphereModTabs.TAB_ATMOSPHERE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

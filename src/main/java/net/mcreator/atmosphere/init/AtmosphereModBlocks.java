@@ -44,6 +44,7 @@ import net.mcreator.atmosphere.block.StardustSandBlock;
 import net.mcreator.atmosphere.block.SparklingStarstoneBlock;
 import net.mcreator.atmosphere.block.ShatterStoneBlock;
 import net.mcreator.atmosphere.block.RawLuminumBlockBlock;
+import net.mcreator.atmosphere.block.PolishedEruptiteBlock;
 import net.mcreator.atmosphere.block.LuminumOreBlock;
 import net.mcreator.atmosphere.block.LuminumBlockBlock;
 import net.mcreator.atmosphere.block.LuminescentLodeBlock;
@@ -69,6 +70,8 @@ import net.mcreator.atmosphere.block.FrostedIceBlockBlock;
 import net.mcreator.atmosphere.block.FrostedHumusSoilBlock;
 import net.mcreator.atmosphere.block.FrostedCobbledShatterStoneBlock;
 import net.mcreator.atmosphere.block.FloweringZorroLeavesBlock;
+import net.mcreator.atmosphere.block.EruptiteBlock;
+import net.mcreator.atmosphere.block.EmberBlock;
 import net.mcreator.atmosphere.block.CobbledShatterStoneStairsBlock;
 import net.mcreator.atmosphere.block.CobbledShatterStoneSlabBlock;
 import net.mcreator.atmosphere.block.CobbledShatterStoneBlock;
@@ -166,6 +169,9 @@ public class AtmosphereModBlocks {
 	public static final RegistryObject<Block> ZORRO_MOSS = REGISTRY.register("zorro_moss", () -> new ZorroMossBlock());
 	public static final RegistryObject<Block> HUMUS_WEED = REGISTRY.register("humus_weed", () -> new HumusWeedBlock());
 	public static final RegistryObject<Block> VIRONY = REGISTRY.register("virony", () -> new VironyBlock());
+	public static final RegistryObject<Block> ERUPTITE = REGISTRY.register("eruptite", () -> new EruptiteBlock());
+	public static final RegistryObject<Block> POLISHED_ERUPTITE = REGISTRY.register("polished_eruptite", () -> new PolishedEruptiteBlock());
+	public static final RegistryObject<Block> EMBER = REGISTRY.register("ember", () -> new EmberBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "atmosphere:blocks/eruptite",
+    "particle": "atmosphere:blocks/eruptite"
+  },
+  "render_type": "solid"
+}
