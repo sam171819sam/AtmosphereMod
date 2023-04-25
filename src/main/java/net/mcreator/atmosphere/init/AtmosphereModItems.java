@@ -139,6 +139,9 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> ERUPTITE = block(AtmosphereModBlocks.ERUPTITE, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> POLISHED_ERUPTITE = block(AtmosphereModBlocks.POLISHED_ERUPTITE, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> EMBER = block(AtmosphereModBlocks.EMBER, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> CLOUD_BLOCK = block(AtmosphereModBlocks.CLOUD_BLOCK, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> LIGHTNING_LURKER_SPAWN_EGG = REGISTRY.register("lightning_lurker_spawn_egg",
+			() -> new ForgeSpawnEggItem(AtmosphereModEntities.LIGHTNING_LURKER, -199317, -12096807, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

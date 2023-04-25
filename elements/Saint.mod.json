@@ -5,7 +5,7 @@
     "mobName": "Saint",
     "mobLabel": "",
     "mobModelTexture": "saint.png",
-    "mobModelGlowTexture": "",
+    "mobModelGlowTexture": "glow_saint.png",
     "visualScale": {
       "fixedValue": 1.0
     },

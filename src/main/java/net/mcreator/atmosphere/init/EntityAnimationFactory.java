@@ -11,6 +11,7 @@ import net.mcreator.atmosphere.entity.SecureShieldEntity;
 import net.mcreator.atmosphere.entity.ScoutyEntity;
 import net.mcreator.atmosphere.entity.SaintEntity;
 import net.mcreator.atmosphere.entity.RayvenEntity;
+import net.mcreator.atmosphere.entity.LightningLurkerEntity;
 import net.mcreator.atmosphere.entity.FireburstEntity;
 import net.mcreator.atmosphere.entity.CroakerEntity;
 import net.mcreator.atmosphere.entity.BalloonFlyEntity;
@@ -84,6 +85,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof ScoutyEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof LightningLurkerEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

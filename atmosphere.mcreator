@@ -3734,6 +3734,7 @@
         "files": [
           "src/main/java/net/mcreator/atmosphere/client/renderer/SaintRenderer.java",
           "src/main/java/net/mcreator/atmosphere/entity/model/SaintModel.java",
+          "src/main/java/net/mcreator/atmosphere/entity/layer/SaintLayer.java",
           "src/main/java/net/mcreator/atmosphere/entity/SaintEntity.java",
           "src/main/resources/assets/atmosphere/models/item/saint_spawn_egg.json"
         ]
@@ -4142,6 +4143,41 @@
         ]
       },
       "path": "~/Biomes/EmberRidge"
+    },
+    {
+      "name": "CloudBlock",
+      "type": "block",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/atmosphere/models/block/cloud_block.json",
+          "src/main/java/net/mcreator/atmosphere/block/CloudBlockBlock.java",
+          "src/main/resources/assets/atmosphere/blockstates/cloud_block.json",
+          "src/main/resources/assets/atmosphere/models/item/cloud_block.json"
+        ]
+      },
+      "path": "~/Biomes/ThunderingHeights"
+    },
+    {
+      "name": "LightningLurker",
+      "type": "animatedentity",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lightning_lurker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/atmosphere/client/renderer/LightningLurkerRenderer.java",
+          "src/main/java/net/mcreator/atmosphere/entity/LightningLurkerEntity.java",
+          "src/main/java/net/mcreator/atmosphere/entity/model/LightningLurkerModel.java",
+          "src/main/resources/assets/atmosphere/models/item/lightning_lurker_spawn_egg.json",
+          "src/main/resources/data/atmosphere/forge/biome_modifier/lightning_lurker_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entitys"
     }
   ],
   "variable_elements": [],
@@ -4172,6 +4208,7 @@
       "biome.atmosphere.zorro_forest": "Zorro Forest",
       "block.atmosphere.horna_fence": "Horna Fence",
       "item.atmosphere.saint_a_chestplate": "Saint Ribs",
+      "entity.atmosphere.lightning_lurker": "Lightning Lurker",
       "block.atmosphere.zorro_pressure_plate": "Zorro Pressure Plate",
       "block.atmosphere.eruptite": "Eruptite",
       "block.atmosphere.borea_leaves": "Borea Leaves",
@@ -4198,6 +4235,7 @@
       "block.atmosphere.horna_trapdoor": "Horna Trapdoor",
       "block.atmosphere.vanillya_brick_stairs": "Vanillya Brick Stairs",
       "block.atmosphere.frosted_ice_block": "Frosted Ice Block",
+      "item.atmosphere.lightning_lurker_spawn_egg": "Lightning Lurker Spawn Egg",
       "entity.atmosphere.saddler": "Saddler",
       "item.atmosphere.stardust": "Stardust",
       "itemGroup.tabatmuspehere": "Atmuspehere",
@@ -4243,6 +4281,7 @@
       "block.atmosphere.zorro_stairs": "Zorro Stairs",
       "block.atmosphere.zorro_slab": "Zorro Slab",
       "entity.atmosphere.windcaller": "Windcaller",
+      "block.atmosphere.cloud_block": "Cloud Block",
       "item.atmosphere.shatter_hoe": "Shatter Hoe",
       "block.atmosphere.zorro_fence": "Zorro Fence",
       "entity.atmosphere.rayven": "Rayven",

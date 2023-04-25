@@ -24,6 +24,7 @@ import net.mcreator.atmosphere.entity.ScoutyEntity;
 import net.mcreator.atmosphere.entity.SaintEntity;
 import net.mcreator.atmosphere.entity.SaddlerEntity;
 import net.mcreator.atmosphere.entity.RayvenEntity;
+import net.mcreator.atmosphere.entity.LightningLurkerEntity;
 import net.mcreator.atmosphere.entity.FireburstEntity;
 import net.mcreator.atmosphere.entity.CroakerEntity;
 import net.mcreator.atmosphere.entity.BalloonFlyEntity;
@@ -70,6 +71,8 @@ public class AtmosphereModEntities {
 			EntityType.Builder.<SaddlerEntity>of(SaddlerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SaddlerEntity::new)
 
 					.sized(1.2f, 2.1999999999999997f));
+	public static final RegistryObject<EntityType<LightningLurkerEntity>> LIGHTNING_LURKER = register("lightning_lurker", EntityType.Builder.<LightningLurkerEntity>of(LightningLurkerEntity::new, MobCategory.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LightningLurkerEntity::new).fireImmune().sized(1f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -89,6 +92,7 @@ public class AtmosphereModEntities {
 			SecureShieldEntity.init();
 			ScoutyEntity.init();
 			SaddlerEntity.init();
+			LightningLurkerEntity.init();
 		});
 	}
 
@@ -105,5 +109,6 @@ public class AtmosphereModEntities {
 		event.put(SECURE_SHIELD.get(), SecureShieldEntity.createAttributes().build());
 		event.put(SCOUTY.get(), ScoutyEntity.createAttributes().build());
 		event.put(SADDLER.get(), SaddlerEntity.createAttributes().build());
+		event.put(LIGHTNING_LURKER.get(), LightningLurkerEntity.createAttributes().build());
 	}
 }

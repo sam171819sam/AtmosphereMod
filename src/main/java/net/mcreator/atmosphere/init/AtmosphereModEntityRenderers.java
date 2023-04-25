@@ -17,6 +17,7 @@ import net.mcreator.atmosphere.client.renderer.ScoutyRenderer;
 import net.mcreator.atmosphere.client.renderer.SaintRenderer;
 import net.mcreator.atmosphere.client.renderer.SaddlerRenderer;
 import net.mcreator.atmosphere.client.renderer.RayvenRenderer;
+import net.mcreator.atmosphere.client.renderer.LightningLurkerRenderer;
 import net.mcreator.atmosphere.client.renderer.FireburstRenderer;
 import net.mcreator.atmosphere.client.renderer.CroakerRenderer;
 import net.mcreator.atmosphere.client.renderer.BalloonFlyRenderer;
@@ -36,5 +37,6 @@ public class AtmosphereModEntityRenderers {
 		event.registerEntityRenderer(AtmosphereModEntities.SECURE_SHIELD.get(), SecureShieldRenderer::new);
 		event.registerEntityRenderer(AtmosphereModEntities.SCOUTY.get(), ScoutyRenderer::new);
 		event.registerEntityRenderer(AtmosphereModEntities.SADDLER.get(), SaddlerRenderer::new);
+		event.registerEntityRenderer(AtmosphereModEntities.LIGHTNING_LURKER.get(), LightningLurkerRenderer::new);
 	}
 }

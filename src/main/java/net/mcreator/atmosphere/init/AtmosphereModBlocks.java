@@ -76,6 +76,7 @@ import net.mcreator.atmosphere.block.CobbledShatterStoneStairsBlock;
 import net.mcreator.atmosphere.block.CobbledShatterStoneSlabBlock;
 import net.mcreator.atmosphere.block.CobbledShatterStoneBlock;
 import net.mcreator.atmosphere.block.CloudFluffBlock;
+import net.mcreator.atmosphere.block.CloudBlockBlock;
 import net.mcreator.atmosphere.block.BoreaWoodBlock;
 import net.mcreator.atmosphere.block.BoreaTrapdoorBlock;
 import net.mcreator.atmosphere.block.BoreaStairsBlock;
@@ -172,6 +173,7 @@ public class AtmosphereModBlocks {
 	public static final RegistryObject<Block> ERUPTITE = REGISTRY.register("eruptite", () -> new EruptiteBlock());
 	public static final RegistryObject<Block> POLISHED_ERUPTITE = REGISTRY.register("polished_eruptite", () -> new PolishedEruptiteBlock());
 	public static final RegistryObject<Block> EMBER = REGISTRY.register("ember", () -> new EmberBlock());
+	public static final RegistryObject<Block> CLOUD_BLOCK = REGISTRY.register("cloud_block", () -> new CloudBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

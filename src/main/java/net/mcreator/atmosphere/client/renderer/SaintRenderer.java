@@ -9,6 +9,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
 import net.mcreator.atmosphere.entity.model.SaintModel;
+import net.mcreator.atmosphere.entity.layer.SaintLayer;
 import net.mcreator.atmosphere.entity.SaintEntity;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -18,6 +19,7 @@ public class SaintRenderer extends GeoEntityRenderer<SaintEntity> {
 	public SaintRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new SaintModel());
 		this.shadowRadius = 0.19999999999999998f;
+		this.addLayer(new SaintLayer(this));
 	}
 
 	@Override
